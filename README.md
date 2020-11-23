@@ -2,6 +2,7 @@
 
 Nesse projeto foi desenvolvido um Website para consultas de filmes e seriados, 
 nele foi usado o axios para consultar uma api especializada em filmes e séries.
+
 ###Objetivo do projeto
 
 
