@@ -57,7 +57,7 @@ export default {
             return this.movie.poster_path ?  'https://image.tmdb.org/t/p/w342'+this.movie.poster_path: require('@/assets/semfoto.jpg')
         },
         backdrop(){
-            return this.movie.backdrop_path ? `url('https://image.tmdb.org/t/p/w1280${this.movie.backdrop_path}')` : ''
+            return this.movie.backdrop_path ? `url('https://image.tmdb.org/t/p/w1280${this.movie.backdrop_path}')` : `url('${require('@/assets/no-image.jpg')}')`
         },
         dateReleased(){
             return this.movie.release_date ? this.movie.release_date: this.movie.first_air_date;
