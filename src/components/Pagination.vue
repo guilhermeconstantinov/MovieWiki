@@ -1,10 +1,12 @@
 <template>
-        <ul class="pagination" v-if="pagination">
-            <li @click="pageDecre()">&lt;</li>
-            <router-link tag="li" v-for="n in pages" :key="n" :to="{ name: $route.name, query: {page:(n+incre)}}">{{(n+incre)}}</router-link>
-            <li @click="pageIncre()">&gt;</li>
-            
-        </ul>
+        <div class="center">
+            <ul class="pagination" v-if="pagination">
+                <li @click="pageDecre()">&lt;</li>
+                <router-link tag="li" v-for="n in pages" :key="n" :to="{ name: $route.name, query: {page:(n+incre)}}">{{(n+incre)}}</router-link>
+                <li @click="pageIncre()">&gt;</li>
+                
+            </ul>
+        </div>
 
 </template>
 
@@ -66,5 +68,9 @@ export default {
     padding: 5px;
     margin: 10px 5px;
     cursor:pointer;
+}
+.center{
+    display: flex;
+    justify-content: center;
 }
 </style>
