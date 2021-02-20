@@ -1,8 +1,8 @@
-#Movie Wiki
+# Movie Wiki
 
 Nesse projeto foi desenvolvido um Website para consultas de filmes e seriados, 
 nele foi usado o axios para consultar uma api especializada em filmes e séries.
-###Objetivo do projeto
+### Objetivo do projeto
 
 
 Funcionalidade do MovieWiki:
@@ -13,12 +13,12 @@ Funcionalidade do MovieWiki:
 * Campo pesquisa para consultar um filme especifico
 * Lista de favoritos
 
-###Pré-Requisitos
+### Pré-Requisitos
 Para rodar o projeto é necessário ter instalado em seu computador NodeJS
 
 NPM: [Node-Installer](https://nodejs.org/)
 
-###Como executá-lo?
+### Como executá-lo?
 
 Primeiramente faça o clone do nosso repositorio do projeto:
 ```
